@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Travel Marhaban Makkah - Umrah dan Haji</title>
+    <link rel="icon" href="images/ico-mekah.ico" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="utils.css" />
+
+    <style>
+    .custom-shape-divider-bottom-1709096539 {
+      position: relative;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+      transform: rotate(180deg);
+    }
+
+    .custom-shape-divider-bottom-1709096539 svg {
+      position: relative;
+      display: block;
+      width: calc(133% + 1.3px);
+      height: 101px;
+    }
+
+    .custom-shape-divider-bottom-1709096539 .shape-fill {
+      fill: #202020;
+    }
+
+    .form-control {
+      border-radius: 30px 0px 0px 30px;
+      border: 2px solid #f9b88e;
+    }
+
+    #foot {
+      margin-left: 350px;
+    }
+
+    #foot .sm {
+      margin-left: 350px;
+    }
+
+    </style>
+  
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navScroll">
+      <div class="container">
+        <a class="navbar-brand" href="/frontend-umroh">
+          <img src="images/ic-logo.png" alt="" height="50" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/frontend-umroh">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Paket Haji
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Layanan Haji</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Paket Umrah
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Layanan Umroh</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Facilities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tour</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <button class="btn btn-outline-warning">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="hero" data-aos="fade-down"> 
+      <div class="container text-center py-5">
+        <div class="hero-title-wrapper">
+          <h1 class="text-super-besar barlow fw-bold text-white py-3">
+            Provide Haji dan Umroh Service <br/> Economy & Luxury
+          </h1>
+          <h5 class="text-normal nunito text-white">
+            Budget-friendly & luxury package for a convenient hajj and umrah
+            journey to the holy <br/>
+            makkah & madinah for muslim brothers and sisters
+          </h5>
+          <button class="btn btn-warning mt-5">Get a Package Price</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews" class="py-5" data-aos="fade-right">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-lg-5 text-center">
+          <div class="col">
+            <img src="images/logo-instagram3.png" height="50" alt="">
+            <div class="d-flex justify-content-center">
+              <img src="images/ic-star.png" height="20" alt="">
+              <p>4.5/5</p>
+            </div>
+            <p>1597 reviews</p>
+          </div>
+          <div class="col">
+            <img src="images/logo-facebook.png" height="50" alt="">
+            <div class="d-flex justify-content-center">
+              <img src="images/ic-star.png" height="20" alt="">
+              <p>4.5/5</p>
+            </div>
+            <p>1597 reviews</p>
+          </div>
+          <div class="col">
+            <img src="images/logo-youtube2.png" height="50" alt="">
+            <div class="d-flex justify-content-center">
+              <img src="images/ic-star.png" height="20" alt="">
+              <p>4.5/5</p>
+            </div>
+            <p>1597 reviews</p>
+          </div>
+          <div class="col">
+            <img src="images/logo-umrah-hajj.png" height="50" alt="">
+            <div class="d-flex justify-content-center">
+              <img src="images/ic-star.png" height="20" alt="">
+              <p>4.5/5</p>
+            </div>
+            <p>1597 reviews</p>
+          </div>
+          <div class="col">
+            <img src="images/logo-tiktok.png" height="50" alt="">
+            <div class="d-flex justify-content-center">
+              <img src="images/ic-star.png" height="20" alt="">
+              <p>4.5/5</p>
+            </div>
+            <p>1597 reviews</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="offers" class="py-5" data-aos="fade-left">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="text-besar barlow fw-bold py-3">
+            Haji And Umrah Special Offers
+          </h2>
+          <h5 class="text-normal nunito text-secondary">
+            Don't miss out on these special offers from us!
+          </h5>
+        </div>
+
+        <div class="row row-cols-1 row-cols-lg-4 text-left">
+
+          <div class="col">
+            <img src="images/img-offers-1.jpg" class="img-fluid img-offers" alt="">
+            <div class="py-3">
+              <div class="text-normal nunito text-oren fw-bold">Economy</div>
+              <div class="text-sedang nunito text-hitam fw-bold">Haji Eco Package</div>
+              <div class="d-flex align-items-center">
+               <div class="text-normal nunito text-biru fw-bold">$25.000</div>
+               <div class="text-kecil nunito text-hitam">/person</div>
+              </div>
+              <div class="text-normal nunito">Packages duration [25 - 35 days]</div>
+            </div>
+            <button class="btn btn-info btn-sm">Details</button>
+          </div>
+
+          <div class="col">
+            <img src="images/img-offers-4.jpg" class="img-fluid img-offers" alt="">
+            <div class="py-3">
+              <div class="text-normal nunito text-oren fw-bold">Luxury</div>
+              <div class="text-sedang nunito text-hitam fw-bold">Haji VIP Package</div>
+              <div class="d-flex align-items-center">
+               <div class="text-normal nunito text-biru fw-bold">$14.000</div>
+               <div class="text-kecil nunito text-hitam">/person</div>
+              </div>
+              <div class="text-normal nunito">Packages duration [25 - 35 days]</div>
+            </div>
+            <button class="btn btn-info btn-sm">Details</button>
+          </div>
+
+          <div class="col">
+            <img src="images/img-offers-1.jpg" class="img-fluid img-offers" alt="">
+            <div class="py-3">
+              <div class="text-normal nunito text-oren fw-bold">Economy</div>
+              <div class="text-sedang nunito text-hitam fw-bold">Umroh Eco 9 Days</div>
+              <div class="d-flex align-items-center">
+               <div class="text-normal nunito text-biru fw-bold">$4.000</div>
+               <div class="text-kecil nunito text-hitam">/person</div>
+              </div>
+              <div class="text-normal nunito">Packages duration [9 days]</div>
+            </div>
+            <button class="btn btn-info btn-sm">Details</button>
+          </div>
+
+          <div class="col">
+            <img src="images/img-offers-4.jpg" class="img-fluid img-offers" alt="">
+            <div class="py-3">
+              <div class="text-normal nunito text-oren fw-bold">Luxury</div>
+              <div class="text-sedang nunito text-hitam fw-bold">Umroh VIP 13 Days</div>
+              <div class="d-flex align-items-center">
+               <div class="text-normal nunito text-biru fw-bold">$7.000</div>
+               <div class="text-kecil nunito text-hitam">/person</div>
+              </div>
+              <div class="text-normal nunito">Packages duration [13 days]</div>
+            </div>
+            <button class="btn btn-info btn-sm">Details</button>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="py-5" data-aos="zoom-in">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="text-besar barlow text-hitam fw-bold">What Do We Offer</div>
+            <div class="text-normal nunito w-75 mb-xxl-5">
+              Budget-friendly & luxury package <br />
+              for a convenient hajj and umrah journey to the holy <br />
+              makkah & madinah for muslim brothers and sisters
+            </div>
+
+            <button class="btn btn-warning mb-5">Learn More</button>
+
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="d-flex align-items-center mb-4">
+                  <img src="images/ic-hotel-booking.png" height="50" class="me-3" alt="">
+                  <div>
+                    <div class="text-normal nunito text-hitam fw-bold">Hotel Booking</div>
+                    <div class="text-kecil nunito">We have offer hotel booking best</div>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center mb-4">
+                  <img src="images/ic-visa-booking.png" height="50" class="me-3" alt="">
+                  <div>
+                    <div class="text-normal nunito text-hitam fw-bold">Visa Booking</div>
+                    <div class="text-kecil nunito">We have offer visa booking best</div>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center mb-4">
+                  <img src="images/ic-tour-booking.png" height="50" class="me-3" alt="">
+                  <div>
+                    <div class="text-normal nunito text-hitam fw-bold">Tour Booking</div>
+                    <div class="text-kecil nunito">We have offer tour booking best</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="d-flex align-items-center mb-4">
+                  <img src="images/ic-haji-offer.png" height="50" class="me-3" alt="">
+                  <div>
+                    <div class="text-normal nunito text-hitam fw-bold">Haji Booking</div>
+                    <div class="text-kecil nunito">We have offer haji booking best</div>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center mb-4">
+                  <img src="images/ic-umroh-offer.png" height="50" class="me-3" alt="">
+                  <div>
+                    <div class="text-normal nunito text-hitam fw-bold">Umroh Booking</div>
+                    <div class="text-kecil nunito">We have offer umroh booking best</div>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center mb-4">
+                  <img src="images/ic-packages.png" height="50" class="me-3" alt="">
+                  <div>
+                    <div class="text-normal nunito text-hitam fw-bold">Packages Booking</div>
+                    <div class="text-kecil nunito">We have offer packages booking best</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="affiliations" class="py-5" data-aos="zoom-in">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="text-sedang barlow text-hitam fw-bold py-3">
+            Our Affiliations Flights & Hotels
+          </h2>
+        </div>        
+        <div class="row row-cols-sm-1 row-cols-lg-5 text-center">
+          <div class="col">
+            <img src="images/ic-garuda.png" height="90" alt="">
+          </div>
+          <div class="col">
+            <img src="images/ic-saudia.png" height="90" alt="">
+          </div>
+          <div class="col">
+            <img src="images/ic-emirates.png" height="90" alt="">
+          </div>
+          <div class="col">
+            <img src="images/ic-hotel1.png" height="100" alt="">
+          </div>
+          <div class="col">
+            <img src="images/ic-hotel2.png" height="90" alt="">
+          </div>
+      </div>
+    </section>
+
+    <section id="packages" class="py-5" data-aos="zoom-in">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="text-besar barlow fw-bold py-3">
+            All Inclusive Packages
+          </h2>
+          <h5 class="text-normal nunito text-secondary">
+            All Inclusive Umroh Package with Good Hotels. Solely focus and maximize every <br/>
+            minute of your tour with our Cheap Umroh Packages.
+          </h5>
+
+        </div>    
+      </div>
+    </section>
+
+ 
+    <section id="footer" data-aos="zoom-in">
+
+      <div class="custom-shape-divider-bottom-1709096539">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+      </div> 
+
+      <div class="" style="background:#202020">
+        <div class="text-center">
+          <br/>
+          <br/>
+          <br/>
+          <div class="text-besar barlow fw-bold mb-4 text-white">Subscribe for Information</div>
+          <div class="text-normal nunito text-white mb-4">Never miss the change of Haji and Umroh. Marhaban Travel always open for offers.</div>
+        </div>
+
+        <div class="container col-lg-4">
+          <div class="input-group">
+            <input type="text" class="form-control me-2" placeholder="Enter Email or Phone">
+            <button class="btn btn-outline-warning">Subscribe</button>
+          </div>
+        </div>
+
+        <br/>
+        <br/>
+
+        <footer id="foo" class="container mt-4">
+        <div class="row">
+        <div class="col">
+          <img src="images/ic-logo.png" height="50" alt="">
+          <p class="text-white">
+            Marhaban Travel Haji & Umroh help service for people Haji & Umroh
+          </p>
+          <a href="#" class="me-2"><img href="#" src="images/ic-fb.png" height="40" alt=""></a>
+          <a href="#" class="me-2"><img href="#" src="images/ic-ig.png" height="40" alt=""></a>
+          <a href="#"><img href="#" src="images/ic-yt.png" height="40" alt=""></a>
+
+        </div>
+
+        <div class="col mb-3">
+          <h5 class="text-sedang barlow fw-bold text-white">Quick Link</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Haji & Umroh</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Facilities</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Islamic Tour</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Gallery</a></li>
+          </ul>
+        </div>
+
+        <div class="col mb-3">
+          <h5 class="text-sedang barlow fw-bold text-white">Offers</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Haji Package</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Umroh Package</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Guidance</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Management</a></li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h5 class="text-sedang barlow fw-bold text-white">Contact Us</h5>
+          <ul class="nav flex-column">                        
+            <li class="nav-item mb-2 text-white"><a href="#"><img class="me-2" src="images/ic-loc.png" height="30" alt=""></a>Ruko Brezee, Jalan Ahmad Yani, Indonesia 45412</li>
+            <li class="nav-item mb-2 text-white"><a href="#"><img class="me-2" src="images/ic-wa.png" height="30" alt=""></a>(021) 8890212</a></li>
+          </ul>
+        </div>
+        </div>
+        </footer>
+
+        <br/>
+        <br/>
+      </div>
+
+    </section>
+
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+
+    <script src="scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+    <!-- <script>
+      AOS.init();
+    </script> -->
+
+  </body>
+
+</html>
